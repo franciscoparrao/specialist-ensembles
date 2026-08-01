@@ -1,0 +1,19 @@
+{
+  "title": "specialist-ensembles: Specialist Ensembles for Cost-Sensitive Imbalanced Classification",
+  "description": "Code and results for the manuscript 'Specialist Ensembles for Cost-Sensitive Imbalanced Classification: When Detecting Minority Cases Matters Most' (under review at Information Sciences). Includes the ASE/DSS implementations, all baselines (SMOTEBoost, RUSBoost, EasyEnsemble, BalancedBagging, Random Balance, Self-Paced Ensemble, threshold-moving), the equal-budget tuning harness with published grids, the cost-weighted and ratio-matched stacking combiners, and precomputed results for every table in the paper.",
+  "creators": [
+    {"name": "Parra Ortiz, Francisco",
+     "affiliation": "Department of Informatics Engineering, Universidad de Santiago de Chile (USACH)",
+     "orcid": "TODO-ORCID"}
+  ],
+  "keywords": ["imbalanced classification", "ensemble learning", "cost-sensitive learning", "stacking", "class imbalance", "machine learning"],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "communities": [],
+  "related_identifiers": [
+    {"identifier": "https://github.com/franciscoparrao/specialist-ensembles",
+     "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

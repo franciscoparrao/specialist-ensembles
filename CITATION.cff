@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "specialist-ensembles: Specialist Ensembles for Cost-Sensitive Imbalanced Classification"
+message: "If you use this software or the derived results, please cite the manuscript below."
+type: software
+authors:
+  - given-names: Francisco
+    family-names: Parra
+    affiliation: "Departamento de Ingeniería Informática, Universidad de Santiago de Chile, Santiago, Chile"
+    orcid: "https://orcid.org/TODO-ORCID"
+license: MIT
+repository-code: "https://github.com/franciscoparrao/specialist-ensembles"
