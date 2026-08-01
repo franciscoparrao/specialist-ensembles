@@ -33,6 +33,7 @@ python phase8_datasets.py                 # builds datasets_phase8.pkl (network 
 | Naive + Random Balance baselines (§7.2) | `python phase8_naive_rb_baselines.py` | `phase8_naive_rb_results*.csv` |
 | Main equal-budget tuned comparison, 13 methods × 3 seeds (§7.2, §7.4) | `python phase9_extended_tuning.py` | `phase9_tuned_results*.csv` |
 | Ratio-matched stacking (§7.2) | `python phase9_ratio_matched.py` | `phase9_ratio_matched.csv` |
+| Elkan-threshold controls (§7.2) | `python phase10_elkan_thresholds.py` | `phase10_elkan_results.csv` |
 | Figures + LaTeX table rows | `python phase8_figures.py` | `figures/*.pdf` |
 
 All experiments use fixed seeds (42/43/44) and 5-fold stratified outer CV. The exact 6-configuration tuning grids for every method are in `results/phase8_tuning_grids.csv` (also in the paper's appendix). Precomputed results for every table in the paper are included under `results/`.
