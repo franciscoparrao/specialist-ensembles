@@ -1,0 +1,81 @@
+Method,config_idx,config
+RF+Threshold,0,ThresholdOptimizer(base_clf=RandomForestClassifier(random_state=42))
+RF+Threshold,1,"ThresholdOptimizer(base_clf=RandomForestClassifier(max_depth=10,
+                                                   rand"
+RF+Threshold,2,"ThresholdOptimizer(base_clf=RandomForestClassifier(max_depth=20,
+                                                   rand"
+RF+Threshold,3,"ThresholdOptimizer(base_clf=RandomForestClassifier(n_estimators=200,
+                                                   "
+RF+Threshold,4,"ThresholdOptimizer(base_clf=RandomForestClassifier(max_depth=10,
+                                                   n_es"
+RF+Threshold,5,"ThresholdOptimizer(base_clf=RandomForestClassifier(max_depth=20,
+                                                   n_es"
+GB+Threshold,0,"ThresholdOptimizer(base_clf=GradientBoostingClassifier(max_depth=2,
+                                                    "
+GB+Threshold,1,"ThresholdOptimizer(base_clf=GradientBoostingClassifier(n_estimators=50,
+                                                "
+GB+Threshold,2,"ThresholdOptimizer(base_clf=GradientBoostingClassifier(max_depth=2,
+                                                    "
+GB+Threshold,3,ThresholdOptimizer(base_clf=GradientBoostingClassifier(random_state=42))
+GB+Threshold,4,"ThresholdOptimizer(base_clf=GradientBoostingClassifier(max_depth=2,
+                                                    "
+GB+Threshold,5,"ThresholdOptimizer(base_clf=GradientBoostingClassifier(n_estimators=200,
+                                               "
+EasyEnsemble,0,"EasyEnsembleT(n_subsets=5, random_state=42)"
+EasyEnsemble,1,"EasyEnsembleT(ada_estimators=60, n_subsets=5, random_state=42)"
+EasyEnsemble,2,EasyEnsembleT(random_state=42)
+EasyEnsemble,3,"EasyEnsembleT(ada_estimators=60, random_state=42)"
+EasyEnsemble,4,"EasyEnsembleT(n_subsets=15, random_state=42)"
+EasyEnsemble,5,"EasyEnsembleT(ada_estimators=60, n_subsets=15, random_state=42)"
+RUSBoost,0,"RUSBoost(n_estimators=20, random_state=42)"
+RUSBoost,1,"RUSBoost(n_estimators=30, random_state=42)"
+RUSBoost,2,RUSBoost(random_state=42)
+RUSBoost,3,"RUSBoost(n_estimators=75, random_state=42)"
+RUSBoost,4,"RUSBoost(n_estimators=100, random_state=42)"
+RUSBoost,5,"RUSBoost(n_estimators=150, random_state=42)"
+SMOTEBoost,0,"SMOTEBoost(k_neighbors=3, n_estimators=30, random_state=42)"
+SMOTEBoost,1,"SMOTEBoost(n_estimators=30, random_state=42)"
+SMOTEBoost,2,"SMOTEBoost(k_neighbors=3, random_state=42)"
+SMOTEBoost,3,SMOTEBoost(random_state=42)
+SMOTEBoost,4,"SMOTEBoost(k_neighbors=3, n_estimators=100, random_state=42)"
+SMOTEBoost,5,"SMOTEBoost(n_estimators=100, random_state=42)"
+BalancedBagging,0,"BalancedBagging(n_estimators=5, random_state=42)"
+BalancedBagging,1,BalancedBagging(random_state=42)
+BalancedBagging,2,"BalancedBagging(n_estimators=15, random_state=42)"
+BalancedBagging,3,"BalancedBagging(n_estimators=20, random_state=42)"
+BalancedBagging,4,"BalancedBagging(n_estimators=30, random_state=42)"
+BalancedBagging,5,"BalancedBagging(n_estimators=50, random_state=42)"
+RandomForest,0,"RandomForestClassifier(class_weight='balanced', random_state=42)"
+RandomForest,1,"RandomForestClassifier(class_weight='balanced', max_depth=15, random_state=42)"
+RandomForest,2,"RandomForestClassifier(class_weight='balanced', n_estimators=200,
+                       random_state=42)"
+RandomForest,3,"RandomForestClassifier(class_weight='balanced', max_depth=15, n_estimators=200,
+                       random_state=42)"
+RandomForest,4,"RandomForestClassifier(class_weight='balanced', n_estimators=300,
+                       random_state=42)"
+RandomForest,5,"RandomForestClassifier(class_weight='balanced', max_depth=15, n_estimators=300,
+                       random_state=42)"
+GradientBoost,0,"GradientBoostingClassifier(max_depth=2, n_estimators=50, random_state=42)"
+GradientBoost,1,"GradientBoostingClassifier(n_estimators=50, random_state=42)"
+GradientBoost,2,"GradientBoostingClassifier(max_depth=2, random_state=42)"
+GradientBoost,3,GradientBoostingClassifier(random_state=42)
+GradientBoost,4,"GradientBoostingClassifier(max_depth=2, n_estimators=200, random_state=42)"
+GradientBoost,5,"GradientBoostingClassifier(n_estimators=200, random_state=42)"
+RandomBalance,0,"RandomBalance(n_estimators=5, random_state=42)"
+RandomBalance,1,"RandomBalance(n_estimators=10, random_state=42)"
+RandomBalance,2,RandomBalance(random_state=42)
+RandomBalance,3,"RandomBalance(n_estimators=20, random_state=42)"
+RandomBalance,4,"RandomBalance(n_estimators=25, random_state=42)"
+RandomBalance,5,"RandomBalance(n_estimators=35, random_state=42)"
+ASE-Static,0,ASETunable(n_per_type=3)
+ASE-Static,1,"ASETunable(gb_estimators=100, n_per_type=3)"
+ASE-Static,2,ASETunable()
+ASE-Static,3,ASETunable(gb_estimators=100)
+ASE-Static,4,ASETunable(n_per_type=8)
+ASE-Static,5,"ASETunable(gb_estimators=100, n_per_type=8)"
+ASE-Stacking,0,"ASETunable(n_per_type=3, scheme='stacking')"
+ASE-Stacking,1,"ASETunable(gb_estimators=100, n_per_type=3, scheme='stacking')"
+ASE-Stacking,2,ASETunable(scheme='stacking')
+ASE-Stacking,3,"ASETunable(gb_estimators=100, scheme='stacking')"
+ASE-Stacking,4,"ASETunable(n_per_type=8, scheme='stacking')"
+ASE-Stacking,5,"ASETunable(gb_estimators=100, n_per_type=8, scheme='stacking')"
