@@ -4,7 +4,7 @@
   "creators": [
     {"name": "Parra Ortiz, Francisco",
      "affiliation": "Department of Informatics Engineering, Universidad de Santiago de Chile (USACH)",
-     "orcid": "TODO-ORCID"}
+     "orcid": "0009-0006-0435-1854"}
   ],
   "keywords": ["imbalanced classification", "ensemble learning", "cost-sensitive learning", "stacking", "class imbalance", "machine learning"],
   "license": "MIT",
